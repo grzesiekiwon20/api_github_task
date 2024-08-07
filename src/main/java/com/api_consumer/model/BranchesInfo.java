@@ -6,10 +6,10 @@ import lombok.Data;
 @Data
 public class BranchesInfo {
 
-    String repoName;
-    String login;
-    String name;
-    Commit commit;
+    private String repoName;
+    private String login;
+    private String name;
+    private Commit commit;
 
     public BranchesInfo(String repoName,String login,String name, Commit commit) {
         this.repoName = repoName;
